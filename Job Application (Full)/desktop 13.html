@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #f2f2f2;
+  font-family: sans-serif;
+  background-color: #fff9ed;
+  overflow-x:none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  color: #f7931f;
+}
+
+.job {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  position: relative;
+  border: 2px solid #f7931f;
+  background-color: #fff9ed;
+  
+  align-items: center;
+
+}
+
+.job-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px;
+  display: inline-block;
+
+}
+
+.job-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.job-location {
+  color: #666;
+}
+
+.job-salary {
+  color: #666;
+}
+
+.job-type {
+  color: #666;
+}
+
+.job-description {
+  color: #666;
+  line-height: 1.6;
+}
+
+.heart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  color: #ff69b4;
+  cursor: pointer;
+}
+
+/* Media queries for mobile devices */
+@media only screen and (max-width: 768px) {
+ .container {
+    width: 90%;
+    padding: 10px;
+  }
+ .job {
+    padding: 15px;
+  }
+ .job-title {
+
+    font-size: 18px;
+
+  }
+ .job-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+ .job-location,.job-salary,.job-type {
+    margin-bottom: 5px;
+  }
+ .job-description {
+    font-size: 14px;
+  }
+ .heart {
+    top: 15px;
+    right: 15px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+ .container {
+    width: 95%;
+    padding: 5px;
+  }
+ .job {
+    padding: 10px;
+  }
+ .job-title {
+    font-size: 16px;
+  }
+ .job-info {
+    font-size: 12px;
+  }
+ .job-description {
+    font-size: 12px;
+  }
+ .heart {
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+  }
+}
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #ccc; /* optional */
+  display: inline-block;
+
+}
+</style>
+</head>
+<body>
+<hr>
+<div class="container">
+  <h1><u>JOBS</u> </h1>
+<hr>
+  <div class="job">
+    <div class="circle"></div>
+
+    <div class="job-title">Software Engineer</div>
+    <div class="job-info">
+      <div class="job-location">Hyderabad (Remote)</div>
+      <div class="job-salary">$55000-$75000</div>
+      <div class="job-type">Full Time</div>
+    </div>
+    <div class="job-description">There Are Many Variations Of Passages Of Lorem Ipsum Available, But The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Don't Look Even Slightly Believable. If You Are Going To Use A Passage Of Lorem Ipsum, You Need To Be Sure There Isn't Anything Embarrassing Hidden In The Middle Of Text.</div>
+    <i class="heart">&#10084;</i>
+  </div>
+
+  <div class="job">
+    <div class="circle"></div>
+
+    <div class="job-title">Business Analyst</div>
+    <div class="job-info">
+      <div class="job-location">Hyderabad (Remote)</div>
+      <div class="job-salary">$55000-$75000</div>
+      <div class="job-type">Full Time</div>
+    </div>
+    <div class="job-description">There Are Many Variations Of Passages Of Lorem Ipsum Available, But The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Don't Look Even Slightly Believable. If You Are Going To Use A Passage Of Lorem Ipsum, You Need To Be Sure There Isn't Anything Embarrassing Hidden In The Middle Of Text.</div>
+    <i class="heart">&#10084;</i>
+  </div>
+
+  <div class="job">
+    <div class="circle"></div>
+
+    <div class="job-title">Full Stack Development (Node Js/Java)</div>
+    <div class="job-info">
+      <div class="job-location">Hyderabad (Remote)</div>
+      <div class="job-salary">$55000-$75000</div>
+      <div class="job-type">Full Time</div>
+    </div>
+    <div class="job-description">There Are Many Variations Of Passages Of Lorem Ipsum Available, But The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Don't Look Even Slightly Believable. If You Are Going To Use A Passage Of Lorem Ipsum, You Need To Be Sure There Isn't Anything Embarrassing Hidden In The Middle Of Text.</div>
+    <i class="heart">&#10084;</i>
+  </div>
+
+<div class="job">
+  <div class="circle"></div>
+
+  <div class="job-title">Data Engineer</div>
+  <div class="job-info">
+    <div class="job-location">Hyderabad (Remote)</div>
+    <div class="job-salary">$55000-$75000</div>
+    <div class="job-type">Full Time</div>
+  </div>
+  <div class="job-description">There Are Many Variations Of Passages Of Lorem Ipsum Available, But The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Don't Look Even Slightly Believable. If You Are Going To Use A Passage Of Lorem Ipsum, You Need To Be Sure There Isn't Anything Embarrassing Hidden In The Middle Of Text.</div>
+  <i class="heart">&#10084;</i>
+</div>
+<div class="job">
+  <div class="circle"></div>
+
+  <div class="job-title">Data Analyst</div>
+  <div class="job-info">
+    <div class="job-location">Hyderabad (Remote)</div>
+    <div class="job-salary">$55000-$75000</div>
+    <div class="job-type">Full Time</div>
+  </div>
+  <div class="job-description">There Are Many Variations Of Passages Of Lorem Ipsum Available, But The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Don't Look Even Slightly Believable. If You Are Going To Use A Passage Of Lorem Ipsum, You Need To Be Sure There Isn't Anything Embarrassing Hidden In The Middle Of Text.</div>
+  <i class="heart">&#10084;</i>
+</div>
+<div class="job">
+  <div class="circle"></div>
+
+  <div class="job-title">Big Data</div>
+  <div class="job-info">
+    <div class="job-location">Hyderabad (Remote)</div>
+    <div class="job-salary">$55000-$75000</div>
+    <div class="job-type">Full Time</div>
+  </div>
+  <div class="job-description">There Are Many Variations Of Passages Of Lorem Ipsum Available, But The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Don't Look Even Slightly Believable. If You Are Going To Use A Passage Of Lorem Ipsum, You Need To Be Sure There Isn't Anything Embarrassing Hidden In The Middle Of Text.</div>
+  <i class="heart">&#10084;</i>
+</div>
+<div class="job">
+  <div class="circle"></div>
+
+  <div class="job-title">Front End Engineer</div>
+  <div class="job-info">
+    <div class="job-location">Hyderabad (Remote)</div>
+    <div class="job-salary">$55000-$75000</div>
+    <div class="job-type">Full Time</div>
+  </div>
+  <div class="job-description">There Are Many Variations Of Passages Of Lorem Ipsum Available, But The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Don't Look Even Slightly Believable. If You Are Going To Use A Passage Of Lorem Ipsum, You Need To Be Sure There Isn't Anything Embarrassing Hidden In The Middle Of Text.</div>
+  <i class="heart">&#10084;</i>
+</div>
+<div class="job">
+  <div class="circle"></div>
+
+  <div class="job-title">AWS/Azure Cloud Computing</div>
+  <div class="job-info">
+    <div class="job-location">Hyderabad (Remote)</div>
+    <div class="job-salary">$55000-$75000</div>
+    <div class="job-type">Full Time</div>
+  </div>
+  <div class="job-description">There Are Many Variations Of Passages Of Lorem Ipsum Available, But The Majority Have Suffered Alteration In Some Form, By Injected Humour, Or Randomised Words Which Don't Look Even Slightly Believable. If You Are Going To Use A Passage Of Lorem Ipsum, You Need To Be Sure There Isn't Anything Embarrassing Hidden In The Middle Of Text.</div>
+  <i class="heart">&#10084;</i>
+</div>
+
+
+</body>
+</html>
