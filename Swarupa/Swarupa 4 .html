@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swarupa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-user-circle"></i>
+        </div>
+        <div class="sandwich-icon" id="sandwich-icon">
+            <i class="fas fa-align-justify" style="height:50px; width:50x;"></i>
+        </div>
+        <div class="sandwich-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="nav-icons2">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </div>
+        
+    </nav>
+    
+    <div class="contact-us">CONTACT US</div>
+    <p style="color:white; text-align: center;">Need to contact Swarupa? Simply tap the button below for your options</p>
+    <a href="#" class="swarupa-button">Swarupa</a>
+    <hr class="random-line-nooecaresabout" style="width:20%; position:absolute; left:100px; margin-top:20vh; background-color: orange; height:3px;">
+
+    <!-- ---------------------------------------form------------------------------- -->
+    <div class="orange-border">
+        <form>
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Name:">
+            <img src="logo.png" class="circle-logo">
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" name="phone" placeholder="Phone no.:">
+           
+          </div>
+          <label for="event-name">Event Name:</label>
+          <input type="text" id="event-name" name="event-name" placeholder="Event Name:">
+          <label for="requirement">Requirement:</label>
+          <textarea id="requirement" name="requirement" placeholder="Requirement:"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+      <div class="line-with-circle">
+        <span class="circle"></span>
+      </div>
+
+      <!-- --------------------------------Other Division----------------------------------------- -->
+      <div class="container">
+        <div class="orange-div">
+          <i class="fas fa-phone"></i>
+          <p>Contact Us</p>
+        </div>
+        <div class="orange-div">
+          <i class="fas fa-comment"></i>
+          <p>Chat with Us</p>
+        </div>
+      </div>
+
+      <!-- ----------------------------------------social division------------------------------------------- -->
+      <div class="middle-div">
+        <div class="components">
+          <h3>Home</h3>
+          <h3>Gallery</h3>
+          <h3>Events</h3>
+        </div>
+        <div class="icons">
+          <i class="fab fa-instagram" style="color: orange;"></i>
+          <i class="fab fa-facebook" style="color: orange;"></i>
+          <i class="fab fa-twitter" style="color: orange;"></i>
+          <i class="fab fa-youtube" style="color: orange;"></i>
+        </div>
+        <h2>PRIVACY   |   TERMS & CONDITIONS</h2>
+        <i class="fas fa-copyright"></i><p>Swarupa. All Rights Reserved . </p>
+      </div>
+    <script>
+        const sandwichIcon = document.getElementById('sandwich-icon');
+        const sandwichMenu = document.querySelector('.sandwich-menu');
+        
+        sandwichIcon.addEventListener('click', () => {
+            sandwichMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
